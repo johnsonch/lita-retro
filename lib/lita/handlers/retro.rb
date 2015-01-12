@@ -17,7 +17,7 @@ module Lita
         "retro list" => t("help.list_value")
       }
 
-      route /retro\s+clear/i, :clear, command: true, restrict_to: :retro_admins, help: {
+      route /retro\s+clear/i, :clear, command: true, help: {
         "retro clear" => t("help.clear_value")
       }
 
